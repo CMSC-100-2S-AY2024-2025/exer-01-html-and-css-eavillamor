@@ -1,14 +1,24 @@
 .information {
-    border: 3px solid black;
     display: flex;
-    flex-direction: row;
-    background-color: beige;
-    justify-content: space-evenly;
-    
+    justify-content: center ;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    background-color:bisque;
 }
 
+
+
+.information > #photo {
+    display: flex;
+    align-items: start;
+    margin: 10px;
+
+}
+
+
 .experience {
-    border: 3px solid black
+    border: 2px solid black
 }
 
 .experience > #experience_header {
@@ -28,31 +38,63 @@
 }
 
 
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    
+}
+
+#projects_header {
+    margin: 0;
+    text-align: center;
+}
+
 .projects {
-    border:1px solid black;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    width:100%;
+    border: 2px solid black;
+    
 }
 
-.projects > #exp1 {
-    border: 1px solid black;
+.exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 }
-.projects > #exp2 {
-    border: 1px solid black;
+
+.exp > .proj_img {
+    transition:all 1s;
 }
-.projects > #exp3 {
-    border: 1px solid black;
+
+.exp >.proj_img:hover {
+    width: 200px;
+    height: 200px;
 }
+
 
 .extra {
-    border:3px solid black;
+    border:2px solid black;
 }
 
 .extra > #skills {
-    border: 1px solid black;
+    border: 2px solid black;
 }
 .extra > #auto {
-    border: 1px solid black;
+    border: 2px solid black;
 
 }
