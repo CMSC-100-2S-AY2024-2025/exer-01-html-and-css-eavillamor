@@ -1,0 +1,58 @@
+.information {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: space-evenly;
+    
+}
+
+.experience {
+    border: 3px solid black
+}
+
+.experience > #experience_header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience > #exp1 {
+    border: 2px solid black;
+}
+.experience > #exp2 {
+    border: 2px solid black;
+}
+.experience > #exp3 {
+    border: 2px solid black;
+}
+
+
+.projects {
+    border:1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projects > #exp1 {
+    border: 1px solid black;
+}
+.projects > #exp2 {
+    border: 1px solid black;
+}
+.projects > #exp3 {
+    border: 1px solid black;
+}
+
+.extra {
+    border:3px solid black;
+}
+
+.extra > #skills {
+    border: 1px solid black;
+}
+.extra > #auto {
+    border: 1px solid black;
+
+}
