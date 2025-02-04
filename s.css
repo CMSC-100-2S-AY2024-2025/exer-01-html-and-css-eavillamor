@@ -10,23 +10,30 @@ body {
     background-color:gray;
     margin:10px;
     border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 
 
 .information > #photo {
+    border-radius: 5px;
     display: flex;
     align-items: start;
     margin: 10px;
     outline: 1px solid black;
     transition: box-shadow 1s,
-    border-radius 1s;
+    border-radius 1s,
+    height 0.5s,
+    width 0.5s;
 
 }
 
 #photo:hover {
     box-shadow: 5px 10px 20px black;
-    border-radius: 10px;
+    border-radius: 30px;
+    height:300px;
+    width:300px;
 }
 
 
@@ -47,6 +54,45 @@ body {
     border: 1px solid black;
     
     
+}
+
+#exp1 > h4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#exp1 > p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exp2 > h4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#exp2 > p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exp3 > h4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#exp3 > p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .experience > #exp2 {
     border: 1px solid black;
@@ -133,7 +179,7 @@ body {
 .extra > #skills {
     border: 2px solid black;
     margin:10px;
-    height: 500px;
+    height: 300px;
     width: 250px;
     border-radius:10px;
     background-image:linear-gradient(WHITE,#00246E);
@@ -149,7 +195,7 @@ body {
 .extra > #auto {
     border: 2px solid black;
     margin:10px;
-    height: 500px;
+    height: 300px;
     width: 250px;
     border-radius:10px;
     background-image:linear-gradient(WHITE,#00246E);
@@ -163,8 +209,32 @@ body {
 
 }
 
+#auto > p {
+    margin: 10px;
+    align-items: center;
+    transition: all 1s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#auto > p:hover{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #skills:hover{
     box-shadow: 5px 10px 20px #00246E;
+    
+}
+
+#skills > ul {
+    transition: all 1s;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#skills > ul:hover {
+    font-size: large;
+    color:black
 
 }
 
